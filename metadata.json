@@ -1,0 +1,6 @@
+{
+  "name": "Expense Tracker",
+  "description": "An offline-first personal finance and expense tracking application with accounts, budgets, and cash flow analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
