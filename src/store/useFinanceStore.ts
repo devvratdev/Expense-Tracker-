@@ -494,7 +494,18 @@ export const useFinanceStore = create<FinanceState>()(
     }),
     {
       name: 'mymoney_finance_storage_v1',
-      storage: createJSONStorage(() => localStorage),
+      storage: createJSONStorage(() => (typeof window !== 'undefined' ? window.localStorage : (null as unknown as Storage))),
+      partialize: (state) => ({
+        accounts: state.accounts,
+        categories: state.categories,
+        transactions: state.transactions,
+        budgets: state.budgets,
+      }),
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          state.setHasHydrated(true);
+        }
+      },
     }
   )
 );
