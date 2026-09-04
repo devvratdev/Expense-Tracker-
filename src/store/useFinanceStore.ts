@@ -48,7 +48,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0.00,
     categoryId: 'cat-salary',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'Monthly tech salary deposit',
   },
   {
@@ -57,7 +57,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0.00,
     categoryId: 'cat-housing',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'Apartment rent payment',
   },
   {
@@ -66,7 +66,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0.00,
     categoryId: 'cat-groceries',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'Whole Foods weekly grocery haul',
   },
   {
@@ -75,7 +75,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 35.00,
     categoryId: 'cat-food',
     accountId: 'acc-2',
-    date: '',
+    date: '01-09-2026',
     note: 'Artisan bistro lunch with team',
   },
   {
@@ -86,7 +86,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     accountId: 'acc-1',
     fromAccountId: 'acc-1',
     toAccountId: 'acc-3',
-    date: '',
+    date: '01-09-2026',
     note: 'Automated savings transfer',
   },
   // Previous months for cash flow chart
@@ -96,7 +96,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0.00,
     categoryId: 'cat-salary',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'salary',
   },
   {
@@ -105,7 +105,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0.00,
     categoryId: 'cat-housing',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'August Rent & Expenses',
   },
   {
@@ -114,7 +114,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0.00,
     categoryId: 'cat-salary',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'July Salary & Bonus',
   },
   {
@@ -123,7 +123,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0.00,
     categoryId: 'cat-housing',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'July Living expenses',
   },
   {
@@ -132,7 +132,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0.00,
     categoryId: 'cat-salary',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'June Salary',
   },
   {
@@ -141,7 +141,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0.00,
     categoryId: 'cat-housing',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'June Expenses',
   },
   {
@@ -150,7 +150,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0.00,
     categoryId: 'cat-salary',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'May Salary',
   },
   {
@@ -159,7 +159,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0.00,
     categoryId: 'cat-housing',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'May Expenses',
   },
   {
@@ -168,7 +168,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0.00,
     categoryId: 'cat-salary',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'April Salary',
   },
   {
@@ -177,7 +177,7 @@ const INITIAL_TRANSACTIONS: Transaction[] = [
     amount: 0,
     categoryId: 'cat-housing',
     accountId: 'acc-1',
-    date: '',
+    date: '01-09-2026',
     note: 'April Expenses',
   },
 ];
